@@ -9,19 +9,31 @@ body {
   margin: 16px auto;
 }
 
+.card,
+.card * {
+  padding: 8px;
+}
+
 .title {
   background: #e3f4ff;
+  font-size: 1rem;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 10px 0;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
   background: white;
   border: 1px solid #eee;
 }
